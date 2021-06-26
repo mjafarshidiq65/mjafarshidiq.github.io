@@ -1,0 +1,134 @@
+*{
+	padding:0;
+	margin: 0;
+	font-family: sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px 0;
+	background-color: 	#D2691E; 
+}
+.medsos ul li{
+	display: inline-block;
+	color: white;
+	margin-right: 10px;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+.container:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+header h1{
+	float: left;
+	padding: 15px 0;
+	color: 	#D2691E;
+}
+header h2{
+	float: left;
+	padding: 10px 0;
+	color: #D2691E;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 30px 25px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: #D2691E; 
+	color: white;
+}
+.active{
+	background-color: 	#D2691E; 
+	color: white;
+}
+.banner{
+	height: 90vh;
+	background-image: url(latar10.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(55,35,39,0.5);
+}
+.banner h2{
+	background-image: url(latar5.jpg);
+	color:	#D2691E;
+	z-index: 1;
+	padding: 20px 20px;
+	border: 8px groove 	#9370DB;
+	text-align: center;
+}
+
+
+section{
+	padding: 50px 0;
+}
+section h2{
+	background-color:	#F0E68C;
+	padding: 20px 0;
+	color: #D2691E;
+	text-align: center;
+
+}
+section h3{
+	background-image: url(latar11.jpg);
+	text-align: center;
+	padding: 20px 0;
+	color: 	#F5F5F5;
+	margin-bottom: 20px;
+}
+section p{
+	background-image: url(latar11.jpg);
+	color: 	#F5F5F5;
+	word-spacing: 2px;
+	line-height: 20px;
+	padding: 50px;
+	text-align:justify;
+}
+.biodata{
+	background-color: #F0E68C;
+}
+.biodata ul li{
+	text-align: center;
+	padding: 1px 0;
+	color: 	#D2691E;
+	margin-bottom: 10px;
+	display: block;
+}
+.pengalaman{
+	background-color: #F0E68C;
+	display: block;
+	margin-bottom: 10px;
+}
+.gallery{
+	background-image: url(latar2.jpg);
+}
+
+
+}
+    
+    </style>
+</head>
+<body>
